@@ -4,8 +4,16 @@
     "slug": "investir-do-zero-premium",
     "version": "1.0.0",
     "owner": "jk2002s-team",
+    "orientation": "portrait",
+    "splash": {
+      "backgroundColor": "#0a0a0a",
+      "resizeMode": "contain"
+    },
     "android": {
-      "package": "com.investirdozero.premium"
+      "package": "com.investirdozero.premium",
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a0a"
+      }
     },
     "extra": {
       "eas": {
