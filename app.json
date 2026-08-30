@@ -5,6 +5,11 @@
     "version": "1.0.0",
     "android": {
       "package": "com.investirdozero.premium"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f9e63dfb-1d3e-48b5-bb8b-0ae86c58a718"
+      }
     }
   }
 }
