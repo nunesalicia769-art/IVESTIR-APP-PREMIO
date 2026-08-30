@@ -11,10 +11,7 @@
       "resizeMode": "contain"
     },
     "android": {
-      "package": "com.investirdozero.premium",
-      "adaptiveIcon": {
-        "backgroundColor": "#0f172a"
-      }
+      "package": "com.investirdozero.premium"
     },
     "extra": {
       "eas": {
