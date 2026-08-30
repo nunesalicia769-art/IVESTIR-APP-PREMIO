@@ -3,6 +3,7 @@
     "name": "INVESTIR DO ZERO PREMIUM",
     "slug": "investir-do-zero-premium",
     "version": "1.0.0",
+    "owner": "jk2002s-team",
     "android": {
       "package": "com.investirdozero.premium"
     },
