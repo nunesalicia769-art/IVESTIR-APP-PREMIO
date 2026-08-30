@@ -1,14 +1,10 @@
 {
   "expo": {
-    "name": "Investir do Zero Premium",
+    "name": "INVESTIR DO ZERO PREMIUM",
     "slug": "investir-do-zero-premium",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "platforms": ["ios", "android", "web"],
-    "extra": {
-      "eas": {
-        "projectId": "f9e63dfb-1d3e-48b5-bb8b-0ae86c58a718"
-      }
+    "android": {
+      "package": "com.investirdozero.premium"
     }
   }
 }
