@@ -1,17 +1,10 @@
-import { View, Text, StyleSheet } from 'react-native';
+import { Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>INVESTIR DO ZERO PREMIUM</Text>
-      <Text style={styles.sub}>Seu guia completo!</Text>
-      <Text style={styles.ok}>✅ APP INSTALADO COM SUCESSO!</Text>
+    <View style={{flex:1, justifyContent:'center', alignItems:'center', backgroundColor:'#0f172a'}}>
+      <Text style={{color:'white', fontSize:24, fontWeight:'bold'}}>INVESTIR DO ZERO</Text>
+      <Text style={{color:'#22c55e', marginTop:10}}>Build funcionando! 🚀</Text>
     </View>
   );
 }
-const styles = StyleSheet.create({
-  container:{flex:1,backgroundColor:'#0a0a0a',alignItems:'center',justifyContent:'center'},
-  title:{color:'#FFD700',fontSize:22,fontWeight:'bold'},
-  sub:{color:'#fff',marginTop:10},
-  ok:{color:'#00ff00',marginTop:20,fontWeight:'bold'}
-});
