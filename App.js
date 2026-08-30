@@ -10,8 +10,9 @@ export default function App() {
     const v = parseFloat(valor) || 0;
     const t = parseFloat(tempo) || 0;
     const taxa = 0.01; // 1% ao mês
-    const total = v * Math.pow(1+taxa, t);
-    const lucro = total - (v*t);
+    const total = v * (Math.pow(1+taxa, t) - 1) / taxa;
+    const investido = v * t;
+    const lucro = total - investido;
     setResultado({ total: total.toFixed(2), lucro: lucro.toFixed(2), investido: (v*t).toFixed(2) });
   };
 
