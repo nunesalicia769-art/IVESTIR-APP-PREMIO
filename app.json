@@ -3,22 +3,8 @@
     "name": "INVESTIR DO ZERO PREMIUM",
     "slug": "investir-do-zero-premium",
     "version": "1.0.0",
-    "owner": "jk2002s-team",
-    "orientation": "portrait",
-    "splash": {
-      "backgroundColor": "#0a0a0a",
-      "resizeMode": "contain"
-    },
     "android": {
-      "package": "com.investirdozero.premium",
-      "adaptiveIcon": {
-        "backgroundColor": "#0a0a0a"
-      }
-    },
-    "extra": {
-      "eas": {
-        "projectId": "f9e63dfb-1d3e-48b5-bb8b-0ae86c58a718"
-      }
+      "package": "com.investirdozero.premium"
     }
   }
 }
